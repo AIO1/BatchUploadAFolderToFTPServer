@@ -64,7 +64,7 @@ for /R "%origin_path%" %%f in (*) do (
         set "remoteFolder=!fullPathToFileWithoutOrigin:\=/!"
     ) else (
         :: If no remaining path, use the original path as the remote folder
-        set "remoteFolder=!origin_path!"
+        set "remoteFolder=!fullPathToFileWithoutOrigin!"
     )
     
     :: If the current folder is not already the remote folder, create it and change to it
