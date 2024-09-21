@@ -14,6 +14,8 @@ This project started because a collegue wanted a batch that when executed, it wo
 
 Becasue this script is actually quite useful and can be easily reusable, I've decided to upload it and make it available for everyone :)
 
+Please note that this solution only works under FTP protocol and not with sFTP. If you want to use sFTP, Windows doesn't include a sFTP client as of today, so you will have to download and install a client that allows for sFTP and modifiy the script. A good client to achieve this is [WinSCP](https://winscp.net/).
+
 
 ## 1 Setup
 Before executing the script, you need to adjust some variables to your needs. Open the [BatchUploadAFolderToFTPServer.bat](BatchUploadAFolderToFTPServer.bat) file with a text editor (I normally use Notepad++). Once the file is opened, you will have to modify the variables shown in this image to your needs:
