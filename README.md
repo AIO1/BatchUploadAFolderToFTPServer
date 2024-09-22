@@ -33,7 +33,7 @@ After you have completed the setup, you will now be able to execute the script a
 
 Please note that it might be possible that you need elevated priviliges in your machine for the script to be executed.
 
-During execution a "CMD" window should appear and you must wait until you see the message "Press any key to continue . . .". The final appearence of all the messages shown in the CMD window when the process finishes is:
+During execution a "CMD" window should appear and you must wait until you see the message "Press any key to continue . . .". The final appearence of all the messages shown in the CMD window when the process finishes should look something like this:
 ```
 Starting process...
 Could not found [PATH TO FTP CMD FILE]
@@ -52,5 +52,5 @@ The execution time will vary depending on 3 factors:
 - Your Internet connection speed.
 
 During the exceution process you will see that 2 new files always generate containing in a part of the name the current date in UTC:
-- **ftp_cmd_[CURRENT_DATE_IN_UTC].dat:** Contains all commands that will be executed by Windows integrated FTP client. A good wa to troubleshoot is verify that the commands here make sense (your password is correct, your paths are ok...).
+- **ftp_cmd_[CURRENT_DATE_IN_UTC].dat:** Contains all commands that will be executed by Windows integrated FTP client. A good way to troubleshoot is verify that the commands here make sense (your password is correct, your paths are ok...).
 - **ftp_result_[CURRENT_DATE_IN_UTC].log:** Contains the result printed out by the Windows interated FTP client. If you want to diagnose any issues, this file will show you after a command execution, what was the response from the FTP server.
